@@ -174,6 +174,7 @@ def just(value):
 
     Note: value is not copied. Be wary of using mutable values.
 
+    If you are looking to convert a function to a strategy then see :func:`~hypothesis.strategies.builds`
     """
     from hypothesis.searchstrategy.misc import JustStrategy
 
